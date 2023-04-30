@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(images/Group\ 18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center;
+    
+
+    
+}
+.header__center p{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+   display: inline-block;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    width:1.5vw;
+
+}
+
+
+.nav__list li{
+
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 180px;
+    font-weight:400;
+    margin-left: 7vw;
+    /*margin-top: -11vh;*/
+    color:#474740;
+    position: relative;
+    top:-7vh;
+
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 2vw;
+    margin-right: 5vw;
+    align-items: center;
+    padding-top: 3vh;
+
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:6vw;
+    
+}
+
+.header__center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 9vh;
+    align-items: center;
+}
+
+.header__center-text{
+    margin-left: 1.5vw;
+}
+
+.header__center-wrapper-img1{
+    margin-right:4vw;
+}
+
+.form-autorisation{
+    height:100vh;
+    width:100%;
+    background-color: #DBDFCD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    
+}
+
+.form-autorisation h2{
+    margin-bottom: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.error{
+    color:red;
+}
+
+label{
+    margin-bottom:5px;
+}
+
+.form-autorisation__btn{
+    margin-top:30px;
+    background-color: #E5B276;
+    border: none;
+    padding: 7px 70px;
+    font-weight: 600;
+}
+
+.form-autorisation input{
+    margin-bottom: 10px;
+    background-color: #DBDFCD;
+}
+
+
+form.dissapear{
+    display: none;
+}
+
+.form-autorisation__inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:100px;
+}
+
+.form-autorisation__login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.form-autorisation__password-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.yera{
+    background-color: #CFC2C8;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height:100vh;
+}
+
+.yera div{
+    width: 25%;
+    
+}
+.yera__r img{
+   position: relative;
+    top:24%;
+   left:27%;
+    
+
+}
+.yera__r{
+    border: 1px solid black;
+
+}
+.yera__u{
+    background-image: url(images/Rectangle\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.yera__u img{
+    position: relative;
+    top:40%;
+   left:27%;
+
+}
+
+.yera__m p{
+    font-weight: bold;
+    font-size: 15px;
+    color:#292024;
+}
+
+.yera__m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    gap:60px;
+    border: 1px solid black;
+}
+
+.yera__i-img{
+    position: relative;
+    top:30%;
+    left:35%;
+}
+
+.yera__i{
+    border: 1px solid black;
+    position: relative;
+
+
+}
+
+.yera__i-logo{
+position: absolute;
+right:20px;
+top:20px;
+}
+
+.diet{
+    background-color: #DBDFCD;
+    position: relative;
+}
+
+.diet__logo{
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+
+.diet__center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    align-items: flex-end;
+    padding-top: 50px;
+
+}
+.diet__center-food{
+    transform: translateY(-50px);
+}
+.diet__center-text h2{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color:#343934;
+font-family: 'DM Serif Display', serif;
+font-size: 140px;
+font-weight: 400;
+} 
+
+.diet__center-text-main{
+    color:#000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    background-color: #E5B276;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.diet__center-text-below{
+    color:#5D625C;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.diet h3{
+    position: absolute;
+    top:30%;
+    right:7%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:black;
+}
+
+.diet__center-text div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
